@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Розклад уроків</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #ffffff;
+      font-family: sans-serif;
+    }
+
+    .schedule {
+      width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+
+    .schedule table {
+      width: 100%;
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    .schedule th, .schedule td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    .schedule th {
+      background-color: #ccc;
+    }
+
+    .schedule input, .schedule select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .schedule input[type="submit"] {
+      background-color: #000;
+      color: #fff;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="schedule">
+    <h1>Розклад уроків</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>День</th>
+          <th>Час</th>
+          <th>Клас</th>
+          <th>Предмет</th>
+          <th>Вчитель</th>
+        </tr>
+      </thead>
+      <tbody>
+                <tr>
+          <td>Понеділок</td>
+          <td>11:45-13:20</td>
+          <td>КІД-41</td>
+          <td>Паралельні та розподільчі обчислення</td>
+          <td>Торошенко Я.І.</td>
+        </tr>
+    <tr>
+      <td>Понеділок</td>
+      <td>13:30-15:05</td>
+      <td>КІД-41</td>
+      <td>Web-тенології та Web-дизайн</td>
+      <td>Гордієнко К.О.</td>
+    </tr>
+    <tr>
+      <td>Вівторок</td>
+      <td>15:15-16:50</td>
+      <td>КІД-41</td>
+      <td>Паралельні та розподілені обчислення</td>
+      <td>Торошенко Я.І.</td>
+    </tr>
+    <tr>
+      <td>Вівторок</td>
+      <td>17:00-18:35</td>
+      <td>КІД-41</td>
+      <td>Паралельні та розподілені обчислення</td>
+      <td>Торошенко Я.І.</td>
+    </tr>
+    <tr>
+      <td>Середа</td>
+      <td>13:30-15:05</td>
+      <td>КІД-41</td>
+      <td>Засади відкриття власного бізнесу</td>
+      <td>Чатченко О.Є.</td>
+    </tr>
+    <tr>
+      <td>Четверг</td>
+      <td>11:45-13:20</td>
+      <td>КІД-41</td>
+      <td>Web-тенології та Web-дизайн</td>
+      <td>Гордієнко К.О.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <input type="submit" value="Відправити">
+  </div>
+</body
